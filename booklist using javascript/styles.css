@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18x;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+form{
+    width: 100%;
+}
+ input{
+    width: 50%;
+    height: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline-color: rgba(0, 0, 255, 0.534);
+    outline-width: 0.1px;
+}
+button{
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgba(19, 124, 19, 0.938);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(14, 100, 14);
+}
+table{
+    margin-top: 50px;
+    width: 50%;
+    background-color: #f1f1f1;
+}
